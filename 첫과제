@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color:aqua">
+  <hr>
+  <h2>게시판</h2>
+  <hr>
+
+  <table border="1">
+    <tr>
+      <th>ID</th> <th>이름</th> <th>학년</th> <th>내용</th>
+    </tr>
+    <tr>
+      <td>ppiyak</td> <td>나삐약</td> <td>2</td> <td>저는 아직도 삐약이라서 코딩 어려워요</td>
+    </tr>
+    <tr>
+      <td>great</td> <td>엄청나</td> <td>4</td> <td>저는 갓코딩입니다. 으허허허</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>
+    </tr>
+  </table>  
+  <form action="" method="">
+  <p>
+    &nbsp;&nbsp;&nbsp;ID:<input type="text" name = "id"><br>
+    이름:<input type="text" name = "person"><br>
+    학년:<input type="radio" name = "grade" value="1">1
+        <input type="radio" name = "grade" value="2">2
+        <input type="radio" name = "grade" value="3">3
+        <input type="radio" name = "grade" value="4">4<br>
+    내용:<input type="text"size=50 name = "detail"><br>
+  </p>
+  <strong>이상 2주차 과제였습니다 ^ ^</strong>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
